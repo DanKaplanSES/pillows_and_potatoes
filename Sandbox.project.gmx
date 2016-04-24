@@ -13,6 +13,8 @@
     <sprite>sprites\spr_potato</sprite>
     <sprite>sprites\spr_pillow</sprite>
     <sprite>sprites\spr_dead_pillow</sprite>
+    <sprite>sprites\spr_potato_sack</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,6 +28,7 @@
     <object>objects\obj_gamestart</object>
     <object>objects\obj_potatoes_left</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_potato_sack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
