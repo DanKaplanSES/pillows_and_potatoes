@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (instance_number(obj_pillow) = 0) {
     for (i = 0; i &lt; 5; i++) {
-        if (irandom(3) = 0) {
+        if (irandom(5) = 0) {
             instance_create(0, 0, obj_potato_sack);
         } else {
             instance_create(0, 0, obj_pillow);

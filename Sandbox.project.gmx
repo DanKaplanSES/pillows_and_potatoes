@@ -29,6 +29,7 @@
     <object>objects\obj_potatoes_left</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_potato_sack</object>
+    <object>objects\obj_screenshake</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
