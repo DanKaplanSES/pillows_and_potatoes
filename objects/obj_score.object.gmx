@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x, y, "Score: " + string(global.score));
+            <string>draw_set_halign(fa_left);
+draw_text(x, y, "Score: " + string(global.score));
 </string>
           </argument>
         </arguments>

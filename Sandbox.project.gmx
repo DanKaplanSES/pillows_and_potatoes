@@ -22,6 +22,9 @@
     <object>objects\obj_potato</object>
     <object>objects\obj_pillow</object>
     <object>objects\obj_dead_pillow</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_gamestart</object>
+    <object>objects\obj_potatoes_left</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
