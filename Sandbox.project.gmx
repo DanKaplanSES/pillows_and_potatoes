@@ -11,27 +11,42 @@
   <sprites name="sprites">
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_potato</sprite>
+    <sprite>sprites\spr_menu_potato</sprite>
     <sprite>sprites\spr_pillow</sprite>
     <sprite>sprites\spr_dead_pillow</sprite>
     <sprite>sprites\spr_potato_sack</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\spr_menu_pillow</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_menu</font>
+    <font>fonts\font_game</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\obj_score</object>
-    <object>objects\obj_arrow</object>
-    <object>objects\obj_potato</object>
-    <object>objects\obj_pillow</object>
-    <object>objects\obj_dead_pillow</object>
-    <object>objects\obj_spawner</object>
-    <object>objects\obj_gamestart</object>
-    <object>objects\obj_potatoes_left</object>
-    <object>objects\obj_gameover</object>
-    <object>objects\obj_potato_sack</object>
-    <object>objects\obj_screenshake</object>
+    <objects name="game">
+      <object>objects\obj_spawner</object>
+      <object>objects\obj_potato</object>
+      <object>objects\obj_dead_pillow</object>
+      <object>objects\obj_pillow</object>
+      <object>objects\obj_gamestart</object>
+      <object>objects\obj_potatoes_left</object>
+      <object>objects\obj_screenshake</object>
+      <object>objects\obj_score</object>
+      <object>objects\obj_arrow</object>
+      <object>objects\obj_potato_sack</object>
+      <object>objects\obj_gameover</object>
+    </objects>
+    <objects name="menu">
+      <object>objects\obj_title</object>
+      <object>objects\obj_menu_potato</object>
+      <object>objects\obj_menu_pillow</object>
+      <object>objects\obj_start</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <help>
