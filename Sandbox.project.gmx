@@ -17,6 +17,8 @@
     <sprite>sprites\spr_potato_sack</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_menu_pillow</sprite>
+    <sprite>sprites\spr_restart_button</sprite>
+    <sprite>sprites\spr_textbox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,18 +38,23 @@
       <object>objects\obj_score</object>
       <object>objects\obj_arrow</object>
       <object>objects\obj_potato_sack</object>
-      <object>objects\obj_gameover</object>
     </objects>
-    <objects name="menu">
+    <objects name="start_menu">
       <object>objects\obj_title</object>
       <object>objects\obj_menu_potato</object>
       <object>objects\obj_menu_pillow</object>
       <object>objects\obj_start</object>
     </objects>
+    <objects name="gameover_menu">
+      <object>objects\obj_restart_button</object>
+      <object>objects\obj_textbox</object>
+      <object>objects\obj_static_text</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_level1</room>
+    <room>rooms\rm_start_menu</room>
+    <room>rooms\rm_game</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
